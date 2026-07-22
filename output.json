@@ -14,7 +14,9 @@
       "lat": 10.7916553,
       "lng": 106.7010331,
       "openHours": "7:00 - 3:00",
-      "note": "Cả tuần"
+      "note": "Cả tuần",
+      "isAllWeek": true,
+      "isBestChoice": false
     },
     {
       "name": "Mamoru Cafe",
@@ -30,7 +32,9 @@
       "lat": 10.7916553,
       "lng": 106.7010331,
       "openHours": "7:30 - 19:30",
-      "note": "Cả tuần"
+      "note": "Cả tuần",
+      "isAllWeek": true,
+      "isBestChoice": false
     },
     {
       "name": "S'Gon Café",
@@ -46,7 +50,9 @@
       "lat": 10.7916553,
       "lng": 106.7010331,
       "openHours": "7:00 - 22:00",
-      "note": "Cả tuần"
+      "note": "Cả tuần",
+      "isAllWeek": true,
+      "isBestChoice": false
     },
     {
       "name": "Esta Saigon",
@@ -64,7 +70,9 @@
       "lat": 10.7932313,
       "lng": 106.6856831,
       "openHours": "18:00 - 23:00",
-      "note": "Cả tuần"
+      "note": "Cả tuần",
+      "isAllWeek": true,
+      "isBestChoice": false
     },
     {
       "name": "Nhà Hàng Maison Mận-Đỏ",
@@ -82,7 +90,9 @@
       "lat": 10.7931475,
       "lng": 106.6876201,
       "openHours": "15:00 - 22:00",
-      "note": "Cả tuần"
+      "note": "Cả tuần",
+      "isAllWeek": true,
+      "isBestChoice": false
     },
     {
       "name": "Miên Saigon",
@@ -100,7 +110,9 @@
       "lat": 10.7925063,
       "lng": 106.6863201,
       "openHours": "18:00 - 23:00",
-      "note": "Cả tuần"
+      "note": "Cả tuần",
+      "isAllWeek": true,
+      "isBestChoice": false
     },
     {
       "name": "Å by TUNG",
@@ -118,7 +130,9 @@
       "lat": 10.7925193,
       "lng": 106.688012,
       "openHours": "18:00 - 23:30",
-      "note": "Cả tuần"
+      "note": "Cả tuần",
+      "isAllWeek": true,
+      "isBestChoice": false
     },
     {
       "name": "Cục Gạch Quán",
@@ -135,7 +149,9 @@
       "lat": 10.7928493,
       "lng": 106.686434,
       "openHours": "9:00 - 23:30",
-      "note": "Cả tuần"
+      "note": "Cả tuần",
+      "isAllWeek": true,
+      "isBestChoice": false
     },
     {
       "name": "Nấm - Vegetarian Bistro",
@@ -152,7 +168,9 @@
       "lat": 10.7888794,
       "lng": 106.6890763,
       "openHours": "10:00 – 22:00",
-      "note": "Cả tuần"
+      "note": "Cả tuần",
+      "isAllWeek": true,
+      "isBestChoice": false
     },
     {
       "name": "Rico Tacos",
@@ -169,7 +187,9 @@
       "lat": 10.7782267,
       "lng": 106.7010323,
       "openHours": "10:00 – 22:00",
-      "note": "Cả tuần"
+      "note": "Cả tuần",
+      "isAllWeek": true,
+      "isBestChoice": false
     },
     {
       "name": "Blanc. Restaurant Saigon",
@@ -186,7 +206,67 @@
       "lat": 10.786418,
       "lng": 106.694687,
       "openHours": "17:30–23:00",
-      "note": null
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    },
+    {
+      "name": "The Vintage Emporium",
+      "category": [
+        "Date",
+        "Đồ ăn"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": null,
+        "raw": "200k – 500k"
+      },
+      "address": "https://maps.app.goo.gl/jQMiQRobTdfvaros6",
+      "lat": 10.790156,
+      "lng": 106.6992087,
+      "openHours": "7:00 - 18:00",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    },
+    {
+      "name": "GLAMISQUE- Fusion Dining",
+      "category": [
+        "Luxury",
+        "Date",
+        "Ăn vặt"
+      ],
+      "priceRange": {
+        "min": 1000000,
+        "max": null,
+        "raw": "1tr+"
+      },
+      "address": "https://maps.app.goo.gl/JeqogKDyPojXriVA8",
+      "lat": 11.9291755,
+      "lng": 108.4360501,
+      "openHours": "17:00 - 23:00",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    },
+    {
+      "name": "Pizza Belga Phan Ke Binh",
+      "category": [
+        "Đồ ăn",
+        "Date"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": null,
+        "raw": "200k – 500k"
+      },
+      "address": "https://maps.app.goo.gl/zs1xbAJzVy2NJhkm7",
+      "lat": 10.7897891045268,
+      "lng": 106.699555708595,
+      "openHours": "11:00 - 14:30, 17:00 - 22:00",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
     }
   ],
   "saigon": [
@@ -206,7 +286,9 @@
       "lat": 10.7721233,
       "lng": 106.7001541,
       "openHours": "12:00 - 23:30",
-      "note": "Cả tuần"
+      "note": "Cả tuần",
+      "isAllWeek": true,
+      "isBestChoice": false
     },
     {
       "name": "Mít Rooftop Bistro",
@@ -224,13 +306,16 @@
       "lat": 10.7735564,
       "lng": 106.7055291,
       "openHours": "10:00–23:00",
-      "note": null
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
     },
     {
       "name": "Le Corto",
       "category": [
         "Luxury",
-        "Date"
+        "Date",
+        "Đồ ăn"
       ],
       "priceRange": {
         "min": 1000000,
@@ -241,7 +326,130 @@
       "lat": 10.7778139,
       "lng": 106.7020766,
       "openHours": "11:00–14:30, 17:30–22:30",
-      "note": null
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    },
+    {
+      "name": "Shri Restaurant & Lounge",
+      "category": [
+        "Date",
+        "Luxury",
+        "Đồ ăn"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": null,
+        "raw": "400k – 1.000k"
+      },
+      "address": "https://maps.app.goo.gl/bWywKkcAuMWP61Lp6",
+      "lat": 10.7827099,
+      "lng": 106.6948549,
+      "openHours": "17:30 – 23:30",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    },
+    {
+      "name": "Sorae Restaurant & Lounge",
+      "category": [
+        "Date",
+        "Luxury",
+        "Đồ ăn"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": null,
+        "raw": "800k – 2.000k"
+      },
+      "address": "https://maps.app.goo.gl/snUHThJG3wgC7Vo68",
+      "lat": 10.7714388,
+      "lng": 106.7016428,
+      "openHours": "11:00 - 14:00, 17:00 – 23:00",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    },
+    {
+      "name": "Towa - Japanese Cuisine",
+      "category": [
+        "Date",
+        "Luxury",
+        "Đồ ăn"
+      ],
+      "priceRange": {
+        "min": 1000000,
+        "max": null,
+        "raw": "1tr+"
+      },
+      "address": "https://maps.app.goo.gl/57vZG8Zb2uCd8PJCA",
+      "lat": 10.7731303,
+      "lng": 106.6980257,
+      "openHours": "11:30 - 23:00",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    },
+    {
+      "name": "Mía Dining",
+      "category": [
+        "Date",
+        "Luxury",
+        "Đồ ăn"
+      ],
+      "priceRange": {
+        "min": 1000000,
+        "max": null,
+        "raw": "1tr+"
+      },
+      "address": "https://maps.app.goo.gl/jhYQiyJhoKmFnpMj6",
+      "lat": 10.7884655,
+      "lng": 106.7022166,
+      "openHours": "17:00 - 23:00",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    },
+    {
+      "name": "BEPBO - Quán Bò Xèo",
+      "category": [
+        "Date",
+        "Đồ ăn"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": null,
+        "raw": "200k–600k"
+      },
+      "address": "https://maps.app.goo.gl/kkPFCATMkUDM8EwK9",
+      "lat": 11.9291755,
+      "lng": 108.4360501,
+      "openHours": "11:00 - 23:00",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    }
+  ],
+  "giadinh": [
+    {
+      "name": "Nephele Restaurant",
+      "category": [
+        "Date",
+        "Đồ ăn",
+        "Luxury"
+      ],
+      "priceRange": {
+        "min": 1000000,
+        "max": null,
+        "raw": "1tr+"
+      },
+      "address": "https://maps.app.goo.gl/sRDVqdxruK3e4dA88",
+      "lat": 10.7958287,
+      "lng": 106.702844,
+      "openHours": "18:00 - 23:00",
+      "note": "Cả tuần",
+      "isAllWeek": true,
+      "isBestChoice": true
     }
   ],
   "tanthoihiep": [
@@ -259,7 +467,9 @@
       "lat": 10.8653193,
       "lng": 106.6472235,
       "openHours": "6:00 - 21:00",
-      "note": "Cả tuần"
+      "note": "Cả tuần",
+      "isAllWeek": true,
+      "isBestChoice": false
     },
     {
       "name": "Đặc Sản Nha Trang 79| Bún Chả Cá - Nem Nướng Nha Trang",
@@ -275,7 +485,9 @@
       "lat": 10.8674205,
       "lng": 106.6452595,
       "openHours": null,
-      "note": null
+      "note": null,
+      "isAllWeek": false,
+      "isBestChoice": false
     },
     {
       "name": "One Days Bistro",
@@ -292,7 +504,312 @@
       "lat": 10.8684204,
       "lng": 106.6437123,
       "openHours": "7:30 - 23:00",
-      "note": "Cả tuần"
+      "note": "Cả tuần",
+      "isAllWeek": true,
+      "isBestChoice": false
+    }
+  ],
+  "govap": [
+    {
+      "name": "Hẹn Rooftop",
+      "category": [
+        "Date",
+        "Coffee"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": 100000,
+        "raw": 100000
+      },
+      "address": "https://maps.app.goo.gl/wFY48Jv8ZqHQHwxE6",
+      "lat": 10.8312916,
+      "lng": 106.6763266,
+      "openHours": "16:30 - 00:30",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    },
+    {
+      "name": "B'ocaxa",
+      "category": [
+        "Date",
+        "Đồ ăn"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": 500000,
+        "raw": 500000
+      },
+      "address": "https://maps.app.goo.gl/PuXArKMYYPLqkjVg7",
+      "lat": 10.8362687,
+      "lng": 106.6773601,
+      "openHours": "10:00 - 22:00",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    }
+  ],
+  "annhon": [
+    {
+      "name": "KingBeef Steak & Pasta House",
+      "category": [
+        "Date",
+        "Luxury",
+        "Đồ ăn"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": null,
+        "raw": "600K+"
+      },
+      "address": "https://maps.app.goo.gl/FeMHEywu2DNrQ6u67",
+      "lat": 10.8239115,
+      "lng": 106.689153,
+      "openHours": "10:00 - 22:00",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    }
+  ],
+  "tansonhoa": [
+    {
+      "name": "Izzibing Snow kem tuyết",
+      "category": [
+        "Ăn vặt"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": null,
+        "raw": "100k - 200k"
+      },
+      "address": "https://maps.app.goo.gl/9FQ25knNUCJsGzmj8",
+      "lat": 10.8061831909226,
+      "lng": 106.668048837575,
+      "openHours": "10:00 - 21:30",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    }
+  ],
+  "cauonglanh": [
+    {
+      "name": "Sul Bingsu",
+      "category": [
+        "Ăn vặt"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": null,
+        "raw": "100k - 200k"
+      },
+      "address": "https://maps.app.goo.gl/xyYGP7upLaeuqW6w9",
+      "lat": 10.7654476501428,
+      "lng": 106.687840952773,
+      "openHours": "11:00 - 22:30",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    }
+  ],
+  "banco": [
+    {
+      "name": "Mrs Diep Che Dessert",
+      "category": [
+        "Ăn vặt"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": 100000,
+        "raw": 100000
+      },
+      "address": "https://maps.app.goo.gl/wS5NZveuU8CqfW7Z9",
+      "lat": 10.7728629856277,
+      "lng": 106.686939781683,
+      "openHours": "17:45 - 21:30",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    }
+  ],
+  "anhoidong": [
+    {
+      "name": "FENICE Cuisine & Bar",
+      "category": [
+        "Date",
+        "Luxury",
+        "Đồ ăn",
+        "Coffee"
+      ],
+      "priceRange": {
+        "min": 1000000,
+        "max": null,
+        "raw": "1tr+"
+      },
+      "address": "https://maps.app.goo.gl/tphpJCg2mSH4wkPq5",
+      "lat": 10.8473531,
+      "lng": 106.6721074,
+      "openHours": "15:00 - 00:00",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    }
+  ],
+  "xuanhoa": [
+    {
+      "name": "Mì Á Pasta",
+      "category": [
+        "Date",
+        "Đồ ăn"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": 300000,
+        "raw": 300000
+      },
+      "address": "https://maps.app.goo.gl/kCR21HE44QejZB9F7",
+      "lat": 11.9291755,
+      "lng": 108.4360501,
+      "openHours": "10:00 - 14:00, 17:00 - 22:00",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    },
+    {
+      "name": "Sip999 Kitchen & Bar",
+      "category": [
+        "Đồ ăn"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": null,
+        "raw": "200k - 600k"
+      },
+      "address": "https://maps.app.goo.gl/LLxCxtEKLjBCD2N5A",
+      "lat": 10.7860619731988,
+      "lng": 106.687200457837,
+      "openHours": "18:00 - 00:00",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    },
+    {
+      "name": "a thăng eatery",
+      "category": [
+        "Đồ ăn"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": null,
+        "raw": "200k - 300k"
+      },
+      "address": "https://maps.app.goo.gl/fDnvNpoiCyTnRfBF7",
+      "lat": 10.7883785145916,
+      "lng": 106.689718233182,
+      "openHours": "11:00 - 14:00, 17:00 - 21:00",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    }
+  ],
+  "vuonlai": [
+    {
+      "name": "Ryo Sushi",
+      "category": [
+        "Date",
+        "Đồ ăn"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": null,
+        "raw": "200k - 500k"
+      },
+      "address": "https://maps.app.goo.gl/xjikvQ3S4gjAKrBbA",
+      "lat": 10.7673657885181,
+      "lng": 106.674343566341,
+      "openHours": "11:00 - 14:00, 17:00 - 22:00",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    }
+  ],
+  "ankhanh": [
+    {
+      "name": "Union Pizza Xuân Thủy",
+      "category": [
+        "Date",
+        "Đồ ăn"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": null,
+        "raw": "200k - 400k"
+      },
+      "address": "https://maps.app.goo.gl/zBALLMXUqZwxR45B8",
+      "lat": 10.8038625693003,
+      "lng": 106.732804224012,
+      "openHours": "10:00 - 21:30",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    }
+  ],
+  "thongtayhoi": [
+    {
+      "name": "Snow Bingsu & Tea GÒ VẤP",
+      "category": [
+        "Đồ ăn",
+        "Ăn vặt"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": 100000,
+        "raw": 100000
+      },
+      "address": "https://maps.app.goo.gl/z379ru8LreVnxdp57",
+      "lat": 10.8433124278213,
+      "lng": 106.659769689004,
+      "openHours": "8:00 - 23:00",
+      "note": null,
+      "isAllWeek": true,
+      "isBestChoice": false
+    }
+  ],
+  "hanhthong": [
+    {
+      "name": "Mây - Ice Cream & Milk Tea | Mây Rooftop",
+      "category": [
+        "Coffee"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": 100000,
+        "raw": 100000
+      },
+      "address": "https://maps.app.goo.gl/XmDGPh6FDkS6z6nz5",
+      "lat": 10.8302497,
+      "lng": 106.6785897,
+      "openHours": "16:30 - 23:30",
+      "note": null,
+      "isAllWeek": false,
+      "isBestChoice": false
+    },
+    {
+      "name": "Phen’s Coffee",
+      "category": [
+        "Coffee"
+      ],
+      "priceRange": {
+        "min": null,
+        "max": 100000,
+        "raw": 100000
+      },
+      "address": "https://maps.app.goo.gl/vjZAqW7sciBGsooJA",
+      "lat": 10.8238892485579,
+      "lng": 106.676360583532,
+      "openHours": "7:00 - 22:00",
+      "note": null,
+      "isAllWeek": false,
+      "isBestChoice": false
     }
   ]
 }

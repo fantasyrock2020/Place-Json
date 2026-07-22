@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 // Path to your Excel file
-const inputFile = path.join(__dirname, "data.xlsx");
+const inputFile = path.join(__dirname, "BẢN ĐỒ ĂN CHƠI.xlsx");
 const outputFile = path.join(__dirname, "output.json");
 
 // Read the workbook
