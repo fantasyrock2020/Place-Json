@@ -58,24 +58,38 @@ function parsePriceRange(str) {
   if (!str) return { min: null, max: null, raw: str };
   const cleaned = String(str).replace(/đ/gi, '').trim();
 
-  // Case: "1tr+" -> open-ended minimum (e.g. 1,000,000+)
-  if (/tr\+?/i.test(cleaned)) {
-    const num = parseFloat(cleaned.replace(/[^\d.,]/g, '').replace(',', '.'));
-    return { min: num * 1000000, max: null, raw: str };
+  // Helper: convert 1 "token" như "100k", "1.5tr", "700.000" thành number
+  function toNumber(token) {
+    token = token.trim();
+    if (/tr\+?$/i.test(token)) {
+      const num = parseFloat(token.replace(/[^\d.,]/g, '').replace(',', '.'));
+      return num * 1_000_000;
+    }
+    if (/k$/i.test(token)) {
+      const num = parseFloat(token.replace(/[^\d.,]/g, '').replace(',', '.'));
+      return num * 1_000;
+    }
+    // số thường, dấu . hoặc , là phân cách nghìn
+    return Number(token.replace(/\./g, '').replace(/,/g, ''));
   }
 
-  // Case: range, e.g. "700.000 – 1.500.000"
+  // Case: mở, ví dụ "1tr+"
+  if (/tr\+$/i.test(cleaned) && !cleaned.includes('-') && !cleaned.includes('–')) {
+    return { min: toNumber(cleaned), max: null, raw: str };
+  }
+
+  // Case: range, ví dụ "100k - 200k", "700.000 – 1.500.000"
   if (cleaned.includes('–') || cleaned.includes('-')) {
     const parts = cleaned.split(/–|-/).map(p => p.trim());
     if (parts.length === 2) {
-      const min = Number(parts[0].replace(/\./g, '').replace(/,/g, ''));
-      const max = Number(parts[1].replace(/\./g, '').replace(/,/g, ''));
+      const min = toNumber(parts[0]);
+      const max = toNumber(parts[1]);
       return { min, max, raw: str };
     }
   }
 
-  // Case: single value, e.g. "100,000 đ" -> means "<= 100,000"
-  const single = Number(cleaned.replace(/\./g, '').replace(/,/g, ''));
+  // Case: giá trị đơn
+  const single = toNumber(cleaned);
   if (!isNaN(single)) {
     return { min: null, max: single, raw: str };
   }

@@ -217,8 +217,8 @@
         "Đồ ăn"
       ],
       "priceRange": {
-        "min": null,
-        "max": null,
+        "min": 200000,
+        "max": 500000,
         "raw": "200k – 500k"
       },
       "address": "https://maps.app.goo.gl/jQMiQRobTdfvaros6",
@@ -256,8 +256,8 @@
         "Date"
       ],
       "priceRange": {
-        "min": null,
-        "max": null,
+        "min": 200000,
+        "max": 500000,
         "raw": "200k – 500k"
       },
       "address": "https://maps.app.goo.gl/zs1xbAJzVy2NJhkm7",
@@ -278,8 +278,8 @@
         "Đồ ăn"
       ],
       "priceRange": {
-        "min": null,
-        "max": null,
+        "min": 300000,
+        "max": 800000,
         "raw": "300k–800k"
       },
       "address": "https://maps.app.goo.gl/vNxyJsJzwh8B3QqE8",
@@ -298,8 +298,8 @@
         "Đồ ăn"
       ],
       "priceRange": {
-        "min": null,
-        "max": null,
+        "min": 300000,
+        "max": 700000,
         "raw": "300k–700k"
       },
       "address": "https://maps.app.goo.gl/fu3Gtjq3kXHYQAyX6",
@@ -338,8 +338,8 @@
         "Đồ ăn"
       ],
       "priceRange": {
-        "min": null,
-        "max": null,
+        "min": 400000,
+        "max": 1000,
         "raw": "400k – 1.000k"
       },
       "address": "https://maps.app.goo.gl/bWywKkcAuMWP61Lp6",
@@ -358,8 +358,8 @@
         "Đồ ăn"
       ],
       "priceRange": {
-        "min": null,
-        "max": null,
+        "min": 800000,
+        "max": 2000,
         "raw": "800k – 2.000k"
       },
       "address": "https://maps.app.goo.gl/snUHThJG3wgC7Vo68",
@@ -417,8 +417,8 @@
         "Đồ ăn"
       ],
       "priceRange": {
-        "min": null,
-        "max": null,
+        "min": 200000,
+        "max": 600000,
         "raw": "200k–600k"
       },
       "address": "https://maps.app.goo.gl/kkPFCATMkUDM8EwK9",
@@ -578,8 +578,8 @@
         "Ăn vặt"
       ],
       "priceRange": {
-        "min": null,
-        "max": null,
+        "min": 100000,
+        "max": 200000,
         "raw": "100k - 200k"
       },
       "address": "https://maps.app.goo.gl/9FQ25knNUCJsGzmj8",
@@ -598,8 +598,8 @@
         "Ăn vặt"
       ],
       "priceRange": {
-        "min": null,
-        "max": null,
+        "min": 100000,
+        "max": 200000,
         "raw": "100k - 200k"
       },
       "address": "https://maps.app.goo.gl/xyYGP7upLaeuqW6w9",
@@ -680,8 +680,8 @@
         "Đồ ăn"
       ],
       "priceRange": {
-        "min": null,
-        "max": null,
+        "min": 200000,
+        "max": 600000,
         "raw": "200k - 600k"
       },
       "address": "https://maps.app.goo.gl/LLxCxtEKLjBCD2N5A",
@@ -698,8 +698,8 @@
         "Đồ ăn"
       ],
       "priceRange": {
-        "min": null,
-        "max": null,
+        "min": 200000,
+        "max": 300000,
         "raw": "200k - 300k"
       },
       "address": "https://maps.app.goo.gl/fDnvNpoiCyTnRfBF7",
@@ -719,8 +719,8 @@
         "Đồ ăn"
       ],
       "priceRange": {
-        "min": null,
-        "max": null,
+        "min": 200000,
+        "max": 500000,
         "raw": "200k - 500k"
       },
       "address": "https://maps.app.goo.gl/xjikvQ3S4gjAKrBbA",
@@ -740,8 +740,8 @@
         "Đồ ăn"
       ],
       "priceRange": {
-        "min": null,
-        "max": null,
+        "min": 200000,
+        "max": 400000,
         "raw": "200k - 400k"
       },
       "address": "https://maps.app.goo.gl/zBALLMXUqZwxR45B8",
