@@ -26,6 +26,7 @@ workbook.SheetNames.forEach((sheetName) => {
     category: row['Phân Loại'] ? row['Phân Loại'].split(',').map(s => s.trim()) : [],
     priceRange: parsePriceRange(row['Khoảng Giá']),
     address: row['Địa Chỉ'],
+    realAddress: row['Địa Chỉ Thực Tế'],
     lat: row['Latitude'],
     lng: row['Longitude'],
     openHours: row['Thời Gian Mở Cửa'],
