@@ -33,6 +33,7 @@ workbook.SheetNames.forEach((sheetName) => {
     note: row['Ghi Chú'],
     isAllWeek: row['Cả Tuần'],
     isBestChoice: row['Best Choice'],
+    imageUrls: row['Hình ảnh'] ? row['Hình ảnh'].split(',').map(s => s.trim()) : [],
   }));
 
   result[name] = mapped;
